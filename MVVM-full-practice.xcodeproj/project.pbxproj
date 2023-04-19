@@ -19,6 +19,15 @@
 		C3CBD5E629E9FF47000EF503 /* MVVM_full_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBD5E529E9FF47000EF503 /* MVVM_full_practiceTests.swift */; };
 		C3CBD5F029E9FF47000EF503 /* MVVM_full_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBD5EF29E9FF47000EF503 /* MVVM_full_practiceUITests.swift */; };
 		C3CBD5F229E9FF47000EF503 /* MVVM_full_practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBD5F129E9FF47000EF503 /* MVVM_full_practiceUITestsLaunchTests.swift */; };
+		C3CEA07629F03C490089E2AD /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA07529F03C490089E2AD /* UIHelper.swift */; };
+		C3CEA07929F03CCC0089E2AD /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA07829F03CCC0089E2AD /* UIView+Ext.swift */; };
+		C3CEA07B29F03CE50089E2AD /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA07A29F03CE50089E2AD /* UICollectionView+Ext.swift */; };
+		C3CEA07D29F03CFC0089E2AD /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA07C29F03CFC0089E2AD /* CGFloat+Ext.swift */; };
+		C3CEA07F29F03DA50089E2AD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA07E29F03DA50089E2AD /* MovieCell.swift */; };
+		C3CEA08129F03DC10089E2AD /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA08029F03DC10089E2AD /* PosterImageView.swift */; };
+		C3CEA08329F03E720089E2AD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA08229F03E720089E2AD /* HomeViewModel.swift */; };
+		C3CEA08629F03ECA0089E2AD /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA08529F03ECA0089E2AD /* DetailScreen.swift */; };
+		C3CEA08829F03EDA0089E2AD /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CEA08729F03EDA0089E2AD /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,15 @@
 		C3CBD5EB29E9FF47000EF503 /* MVVM-full-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-full-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CBD5EF29E9FF47000EF503 /* MVVM_full_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_full_practiceUITests.swift; sourceTree = "<group>"; };
 		C3CBD5F129E9FF47000EF503 /* MVVM_full_practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_full_practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3CEA07529F03C490089E2AD /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		C3CEA07829F03CCC0089E2AD /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		C3CEA07A29F03CE50089E2AD /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		C3CEA07C29F03CFC0089E2AD /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		C3CEA07E29F03DA50089E2AD /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C3CEA08029F03DC10089E2AD /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
+		C3CEA08229F03E720089E2AD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C3CEA08529F03ECA0089E2AD /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		C3CEA08729F03EDA0089E2AD /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,7 @@
 			children = (
 				C31B7B5429EB607B0012B6FA /* NetworkManager.swift */,
 				C31B7B5629EB616B0012B6FA /* ApiUrl.swift */,
+				C3CEA07529F03C490089E2AD /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -110,6 +129,7 @@
 		C31B7B4D29EB5EA90012B6FA /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C3CEA08429F03E980089E2AD /* DetailScreen */,
 				C31B7B4F29EB5EE00012B6FA /* HomeScreen */,
 				C31B7B4E29EB5EBB0012B6FA /* Components */,
 			);
@@ -119,6 +139,8 @@
 		C31B7B4E29EB5EBB0012B6FA /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C3CEA07E29F03DA50089E2AD /* MovieCell.swift */,
+				C3CEA08029F03DC10089E2AD /* PosterImageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -127,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				C31B7B5029EB5F6D0012B6FA /* HomeScreen.swift */,
+				C3CEA08229F03E720089E2AD /* HomeViewModel.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -154,6 +177,7 @@
 		C3CBD5CD29E9FF45000EF503 /* MVVM-full-practice */ = {
 			isa = PBXGroup;
 			children = (
+				C3CEA07729F03CA70089E2AD /* Extensions */,
 				C31B7B4B29EB5E970012B6FA /* Models */,
 				C31B7B4A29EB5E640012B6FA /* Utilities */,
 				C31B7B4C29EB5E9E0012B6FA /* Services */,
@@ -182,6 +206,25 @@
 				C3CBD5F129E9FF47000EF503 /* MVVM_full_practiceUITestsLaunchTests.swift */,
 			);
 			path = "MVVM-full-practiceUITests";
+			sourceTree = "<group>";
+		};
+		C3CEA07729F03CA70089E2AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3CEA07829F03CCC0089E2AD /* UIView+Ext.swift */,
+				C3CEA07A29F03CE50089E2AD /* UICollectionView+Ext.swift */,
+				C3CEA07C29F03CFC0089E2AD /* CGFloat+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3CEA08429F03E980089E2AD /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C3CEA08529F03ECA0089E2AD /* DetailScreen.swift */,
+				C3CEA08729F03EDA0089E2AD /* DetailViewModel.swift */,
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,11 +359,20 @@
 			files = (
 				C31B7B5B29EB61C80012B6FA /* Movie.swift in Sources */,
 				C31B7B5929EB61A10012B6FA /* MovieService.swift in Sources */,
+				C3CEA07F29F03DA50089E2AD /* MovieCell.swift in Sources */,
 				C31B7B5129EB5F6D0012B6FA /* HomeScreen.swift in Sources */,
+				C3CEA07D29F03CFC0089E2AD /* CGFloat+Ext.swift in Sources */,
+				C3CEA08629F03ECA0089E2AD /* DetailScreen.swift in Sources */,
 				C31B7B5729EB616B0012B6FA /* ApiUrl.swift in Sources */,
+				C3CEA07B29F03CE50089E2AD /* UICollectionView+Ext.swift in Sources */,
 				C31B7B5529EB607C0012B6FA /* NetworkManager.swift in Sources */,
+				C3CEA07929F03CCC0089E2AD /* UIView+Ext.swift in Sources */,
+				C3CEA08329F03E720089E2AD /* HomeViewModel.swift in Sources */,
 				C3CBD5CF29E9FF45000EF503 /* AppDelegate.swift in Sources */,
 				C3CBD5D129E9FF45000EF503 /* SceneDelegate.swift in Sources */,
+				C3CEA08129F03DC10089E2AD /* PosterImageView.swift in Sources */,
+				C3CEA07629F03C490089E2AD /* UIHelper.swift in Sources */,
+				C3CEA08829F03EDA0089E2AD /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
